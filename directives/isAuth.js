@@ -31,7 +31,7 @@ const directiveResolvers = {
       }
 }
 
-function extractToken(req) {ssssssssssssssssssssssss
+function extractToken(req) {
     if (
       req.headers.authorization &&
       req.headers.authorization.split(" ")[0] === "Bearer"
@@ -43,4 +43,4 @@ function extractToken(req) {ssssssssssssssssssssssss
     return null;
   }
   
-module.exports = directiveResolvers;
+module.exports = directiveResolvers ;
